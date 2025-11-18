@@ -17,7 +17,7 @@ func _ready():
 
 
 func save_game():
-	config.set_value("data", "gate_id", Globals.gate_id)
+	config.set_value("data", "gate_id", "変数など")
 	
 	config.save_encrypted_pass(FILE_PATH, "mai")
 

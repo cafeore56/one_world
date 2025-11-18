@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="1つの世界"
+run/main_scene="uid://b11vwnr4crg46"
 config/features=PackedStringArray("4.5", "Mobile")
 config/icon="res://icon.svg"
 
@@ -20,6 +21,7 @@ EventBus="*res://autoload/event_bus.gd"
 SaveLoader="*res://autoload/save_loader.gd"
 SceneManager="*res://autoload/scene_manager.tscn"
 TimerManager="*res://autoload/timer_manager.gd"
+Globals="*res://autoload/globals.gd"
 
 [debug]
 

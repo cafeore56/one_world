@@ -1,18 +1,6 @@
-[gd_scene load_steps=3 format=3 uid="uid://do66scvr6utbd"]
+[gd_scene load_steps=2 format=3 uid="uid://do66scvr6utbd"]
 
 [ext_resource type="Script" uid="uid://ce8swxa6fyg37" path="res://script/test.gd" id="1_bp0px"]
-[ext_resource type="Script" uid="uid://d150oc7yt6mkn" path="res://addons/AdmobPlugin/Admob.gd" id="2_5u11y"]
 
 [node name="Test" type="Node2D"]
 script = ExtResource("1_bp0px")
-
-[node name="Admob" type="Node" parent="."]
-script = ExtResource("2_5u11y")
-banner_position = 1
-android_debug_application_id = "ca-app-pub-3940256099942544~3347511713"
-android_real_application_id = "ca-app-pub-1211614807392131~1107876184"
-android_debug_banner_id = "ca-app-pub-3940256099942544/9214589741"
-ios_debug_application_id = "ca-app-pub-3940256099942544~1458002511"
-ios_real_application_id = "ca-app-pub-1211614807392131~5518319516"
-ios_debug_banner_id = "ca-app-pub-3940256099942544/2435281174"
-metadata/_custom_type_script = "uid://d150oc7yt6mkn"
