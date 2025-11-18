@@ -14,6 +14,13 @@ config/name="1つの世界"
 config/features=PackedStringArray("4.5", "Mobile")
 config/icon="res://icon.svg"
 
+[autoload]
+
+EventBus="*res://autoload/event_bus.gd"
+SaveLoader="*res://autoload/save_loader.gd"
+SceneManager="*res://autoload/scene_manager.tscn"
+TimerManager="*res://autoload/timer_manager.gd"
+
 [debug]
 
 gdscript/warnings/integer_division=0

@@ -8,6 +8,7 @@ script = ExtResource("1_1q237")
 
 [node name="Admob" type="Node" parent="."]
 script = ExtResource("2_eo53x")
+banner_position = 1
 android_debug_application_id = "ca-app-pub-3940256099942544~3347511713"
 android_real_application_id = "ca-app-pub-1211614807392131~1107876184"
 android_debug_banner_id = "ca-app-pub-3940256099942544/9214589741"
