@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://r36bdyire68v"]
+
+[ext_resource type="Script" uid="uid://c4w08nfk3n5dq" path="res://script/ad.gd" id="1_1q237"]
+[ext_resource type="Script" uid="uid://d150oc7yt6mkn" path="res://addons/AdmobPlugin/Admob.gd" id="2_eo53x"]
+
+[node name="Ad" type="Node"]
+script = ExtResource("1_1q237")
+
+[node name="Admob" type="Node" parent="."]
+script = ExtResource("2_eo53x")
+android_debug_application_id = "ca-app-pub-3940256099942544~3347511713"
+android_real_application_id = "ca-app-pub-1211614807392131~1107876184"
+android_debug_banner_id = "ca-app-pub-3940256099942544/9214589741"
+ios_debug_application_id = "ca-app-pub-3940256099942544~1458002511"
+ios_real_application_id = "ca-app-pub-1211614807392131~5518319516"
+ios_debug_banner_id = "ca-app-pub-3940256099942544/2435281174"
+metadata/_custom_type_script = "uid://d150oc7yt6mkn"
+
+[connection signal="initialization_completed" from="Admob" to="." method="_on_admob_initialization_completed"]
