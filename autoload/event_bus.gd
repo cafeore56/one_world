@@ -6,3 +6,5 @@ extends Node
 signal change_scene_shot(path: String)
 # Scene Switch
 signal switch_scene_shot(path: String)
+
+signal testB

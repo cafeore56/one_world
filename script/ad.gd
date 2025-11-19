@@ -12,7 +12,6 @@ func _ready() -> void:
 # 広告の初期化完了時
 func _on_admob_initialization_completed(status_data: InitializationStatus) -> void:
 	is_initialize = true
-	print("初期化かん寮")
 	# 画面下の広告を出す
 	if is_initialize:
 		admob.load_banner_ad()

@@ -50,11 +50,11 @@ func _ready() -> void:
 	_setup_timer(ad_rare_state.timer, ad_rare_timeout)
 	
 	# 製造カウントスタート
-	EventBus.create_robo_start_shot.connect(create_start)
+	#EventBus.create_robo_start_shot.connect(create_start)
 	# Adカウントスタート（時間）
-	EventBus.ad_time_start_shot.connect(ad_time_preferential_start)
+	#EventBus.ad_time_start_shot.connect(ad_time_preferential_start)
 	# Adカウントスタート（レア）
-	EventBus.ad_rare_start_shot.connect(ad_rare_preferential_start)
+	#EventBus.ad_rare_start_shot.connect(ad_rare_preferential_start)
 
 
 # 作ったTimerインスタンスを追加 & timeout時に実行される関数を指定
