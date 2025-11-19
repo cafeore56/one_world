@@ -1,7 +1,6 @@
-[gd_scene load_steps=3 format=3 uid="uid://x327hvlvdhjp"]
+[gd_scene load_steps=2 format=3 uid="uid://x327hvlvdhjp"]
 
 [ext_resource type="Script" uid="uid://cr6tnycqen3nl" path="res://test/test_3.gd" id="1_w1u3t"]
-[ext_resource type="PackedScene" uid="uid://r36bdyire68v" path="res://autoload/ad.tscn" id="2_p12ew"]
 
 [node name="Test3" type="Node2D"]
 script = ExtResource("1_w1u3t")
@@ -19,7 +18,5 @@ offset_top = 115.0
 offset_right = 282.0
 offset_bottom = 138.0
 text = "Test3"
-
-[node name="Ad" parent="." instance=ExtResource("2_p12ew")]
 
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

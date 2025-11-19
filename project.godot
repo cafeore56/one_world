@@ -20,7 +20,7 @@ config/icon="res://icon.svg"
 EventBus="*res://autoload/event_bus.gd"
 SaveLoader="*res://autoload/save_loader.gd"
 SceneManager="*res://autoload/scene_manager.tscn"
-TimerManager="*res://autoload/timer_manager.gd"
+TimerManager="res://autoload/timer_manager.gd"
 Globals="*res://autoload/globals.gd"
 QuestManager="*res://autoload/quest_manager.gd"
 

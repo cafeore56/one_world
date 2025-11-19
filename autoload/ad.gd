@@ -13,13 +13,13 @@ func _ready() -> void:
 func _on_admob_initialization_completed(status_data: InitializationStatus) -> void:
 	is_initialize = true
 	
-	if !Globals.ad:
-		print("おふ")
-		return
-	else :
-		# 画面下の広告を出す
-		if is_initialize:
-			admob.load_banner_ad()
-			await admob.banner_ad_loaded
-			admob.show_banner_ad()
-			print("おん")
+	#if !Globals.ad:
+		#print("おふ")
+		#return
+	#else :
+		## 画面下の広告を出す
+		#if is_initialize:
+			#admob.load_banner_ad()
+			#await admob.banner_ad_loaded
+			#admob.show_banner_ad()
+			#print("おん")
