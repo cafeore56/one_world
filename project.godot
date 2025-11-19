@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="1つの世界"
-run/main_scene="uid://b11vwnr4crg46"
+run/main_scene="uid://l1fk85vqilmg"
 config/features=PackedStringArray("4.5", "Mobile")
 config/icon="res://icon.svg"
 

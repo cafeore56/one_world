@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://r36bdyire68v"]
 
-[ext_resource type="Script" uid="uid://c4w08nfk3n5dq" path="res://script/ad.gd" id="1_1q237"]
+[ext_resource type="Script" uid="uid://c4w08nfk3n5dq" path="res://scripts/ad.gd" id="1_1q237"]
 [ext_resource type="Script" uid="uid://d150oc7yt6mkn" path="res://addons/AdmobPlugin/Admob.gd" id="2_eo53x"]
 
 [node name="Ad" type="Node"]
