@@ -1,13 +1,13 @@
 [gd_scene load_steps=3 format=3 uid="uid://r36bdyire68v"]
 
-[ext_resource type="Script" uid="uid://c4w08nfk3n5dq" path="res://scripts/ad.gd" id="1_1q237"]
-[ext_resource type="Script" uid="uid://d150oc7yt6mkn" path="res://addons/AdmobPlugin/Admob.gd" id="2_eo53x"]
+[ext_resource type="Script" uid="uid://c4w08nfk3n5dq" path="res://autoload/ad.gd" id="1_qxmcf"]
+[ext_resource type="Script" uid="uid://d150oc7yt6mkn" path="res://addons/AdmobPlugin/Admob.gd" id="2_ypkng"]
 
 [node name="Ad" type="Node"]
-script = ExtResource("1_1q237")
+script = ExtResource("1_qxmcf")
 
 [node name="Admob" type="Node" parent="."]
-script = ExtResource("2_eo53x")
+script = ExtResource("2_ypkng")
 banner_position = 1
 android_debug_application_id = "ca-app-pub-3940256099942544~3347511713"
 android_real_application_id = "ca-app-pub-1211614807392131~1107876184"

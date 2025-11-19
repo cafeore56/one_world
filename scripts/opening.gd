@@ -5,5 +5,6 @@ class_name Opening
 
 
 func _ready() -> void:
+	Globals.ad = false
 	start_button.pressed.connect(func() -> void:
 		SceneManager.change_scene("main"))

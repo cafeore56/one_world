@@ -1,12 +1,12 @@
 [gd_scene load_steps=3 format=3 uid="uid://b11vwnr4crg46"]
 
 [ext_resource type="Script" uid="uid://bounk4mdact8h" path="res://scripts/main.gd" id="1_itxqv"]
-[ext_resource type="PackedScene" uid="uid://r36bdyire68v" path="res://scenes/ad.tscn" id="2_v0l8b"]
+[ext_resource type="PackedScene" uid="uid://r36bdyire68v" path="res://autoload/ad.tscn" id="2_0wfyh"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_itxqv")
 
-[node name="Ad" parent="." instance=ExtResource("2_v0l8b")]
+[node name="Ad" parent="." instance=ExtResource("2_0wfyh")]
 
 [node name="Label" type="Label" parent="."]
 offset_left = 183.0
@@ -14,3 +14,28 @@ offset_top = 142.0
 offset_right = 360.0
 offset_bottom = 165.0
 text = "aaaaaaaaaaaaaaaaaaa"
+
+[node name="Button" type="Button" parent="."]
+offset_left = 159.0
+offset_top = 268.0
+offset_right = 300.0
+offset_bottom = 366.0
+text = "Test1"
+
+[node name="Button2" type="Button" parent="."]
+offset_left = 149.0
+offset_top = 423.0
+offset_right = 307.0
+offset_bottom = 496.0
+text = "Test2"
+
+[node name="Button3" type="Button" parent="."]
+offset_left = 160.0
+offset_top = 540.0
+offset_right = 303.0
+offset_bottom = 615.0
+text = "Test3"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="Button3" to="." method="_on_button_3_pressed"]

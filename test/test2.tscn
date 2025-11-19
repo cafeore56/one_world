@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3 uid="uid://b81osvil13so7"]
+
+[ext_resource type="Script" uid="uid://cljyp4jqrl7fg" path="res://test/test_2.gd" id="1_e66lm"]
+[ext_resource type="PackedScene" uid="uid://r36bdyire68v" path="res://autoload/ad.tscn" id="2_wto88"]
+
+[node name="Test2" type="Node2D"]
+script = ExtResource("1_e66lm")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 233.0
+offset_top = 120.0
+offset_right = 275.0
+offset_bottom = 143.0
+text = "Test2"
+
+[node name="Button" type="Button" parent="."]
+offset_left = 202.0
+offset_top = 310.0
+offset_right = 295.0
+offset_bottom = 388.0
+text = "メインシーンへ"
+
+[node name="Ad" parent="." instance=ExtResource("2_wto88")]
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://l1fk85vqilmg"]
+[gd_scene load_steps=3 format=3 uid="uid://l1fk85vqilmg"]
 
 [ext_resource type="Script" uid="uid://bw4bgsbwbiq48" path="res://scripts/opening.gd" id="1_pk062"]
+[ext_resource type="PackedScene" uid="uid://r36bdyire68v" path="res://autoload/ad.tscn" id="2_gafq3"]
 
 [node name="Opening" type="Node2D"]
 script = ExtResource("1_pk062")
@@ -11,3 +12,5 @@ offset_top = 257.0
 offset_right = 269.0
 offset_bottom = 288.0
 text = "スタート"
+
+[node name="Ad" parent="." instance=ExtResource("2_gafq3")]
